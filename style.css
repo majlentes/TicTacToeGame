@@ -41,8 +41,6 @@ button {
 	grid-auto-rows: 1fr;
 	align-items: center;
 	box-sizing: border-box;
-	margin: 20px 0px;
-	padding: 20px;
 	justify-self: center;
 
 	grid-area: board;
@@ -70,6 +68,10 @@ button {
 		margin:20px;
 		padding: 20px;
 	}
+	.boardContainer{
+		margin: 20px 0px;
+		padding: 20px;
+	}
 	.container {
 		border: 2px inset;
 		padding: 15px;
@@ -86,7 +88,7 @@ button {
 			"board" auto
 			"sizes" auto
 			"infos" auto
-			/ minmax(400px, 1fr);
+			/ minmax(360px, 1fr);
 	}
 }
 
