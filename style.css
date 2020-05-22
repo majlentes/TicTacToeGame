@@ -1,6 +1,6 @@
 body {
-	margin:20px;
-	padding: 20px;
+	margin:0px;
+	padding: 0px;
 	background-color: #ebe8e8;
 	font-family: 'Raleway', sans-serif;
 }
@@ -65,9 +65,19 @@ button {
 	color: black;
 }
 
-@media(max-width: 1000px){
+@media(min-width: 520px) {
+	body {
+		margin:20px;
+		padding: 20px;
+	}
 	.container {
-		border: 2px inset;	
+		border: 2px inset;
+		padding: 15px;
+	}
+}
+
+@media(max-width: 1000px){
+	.container {	
 		border-radius: 30px;
 		display: grid;
 		justify-items: center;
@@ -77,13 +87,11 @@ button {
 			"sizes" auto
 			"infos" auto
 			/ minmax(400px, 1fr);
-		padding: 15px;
 	}
 }
 
 @media(min-width: 1000px){
-	.container {
-		border: 2px inset;	
+	.container {	
 		border-radius: 30px;
 		display: grid;
 		grid: 
@@ -92,6 +100,5 @@ button {
 			"board infos" 2fr
 			/ minmax(640px, 1fr) 1fr;
 		gap: 20px 30px;
-		padding: 15px;
 	}
 }
