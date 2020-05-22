@@ -4,6 +4,7 @@
     <head>
     	<title>Tic Tac Toe</title>
     	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<script src="./script.js" defer></script>
     	<link href="./style.css" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Raleway&display=swap" rel="stylesheet">
